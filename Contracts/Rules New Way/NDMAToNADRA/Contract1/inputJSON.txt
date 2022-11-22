@@ -1,0 +1,5 @@
+ {
+        "AirQualityIndex": 200,
+	"AirQualitySeverity": "Low",
+	"ConfidentialFile": "As13afk4makmf0-asma-daksdaudaibdab09adab"
+ }

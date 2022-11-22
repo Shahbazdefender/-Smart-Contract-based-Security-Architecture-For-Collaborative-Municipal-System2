@@ -1,0 +1,4 @@
+ {
+        "AirQualityIndex": 200,
+	"AirQualitySeverity": "Low"
+ }
