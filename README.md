@@ -4,23 +4,10 @@ Please Read the help file that will help you to undertand the Usecase and Instal
 
 # Contract-1 
 
-import sys
+**import sys
 
 import json
 
-import hashlib
-
-import os
-
-from ipaddress import IPv6Network
-
-import random
-
-import ipaddress
-
-from random import choice
-
-from experta import *
 
 with open("inputJSON.txt", "r") as json_file:
 
@@ -37,7 +24,7 @@ class Light(Fact):
 
     pass
 
-class RobotCrossStreet(KnowledgeEngine):
+class Shahbaz(KnowledgeEngine):
 
     @Rule(Light(AND(firstKeyData == 'AirQualityIndex', secondKeyData == 'AirQualitySeverity')))
         
