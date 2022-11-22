@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/ubuntu/Desktop/contiki/tools/cooja/lib/MultiChainJavaAPI-0.5.03-SNAPSHOT-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="tools/cooja/examples/sdn-wise_java/java/com/github/sdnwiselab/sdnwise/cooja/AbstractMote.java"/>
+	<classpathentry kind="lib" path="AbstractMote.java"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
