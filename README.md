@@ -19,23 +19,51 @@ firstKeyDataInput = list(data.keys())[0]
 secondKeyDataInput = list(data.keys())[1]
 
 
-class Light(Fact):
-    """Info about the Contract"""
-
-    pass
-
 class Shahbaz(KnowledgeEngine):
 
-    @Rule(Light(AND(firstKeyData == 'AirQualityIndex', secondKeyData == 'AirQualitySeverity')))
+    Rule(Light(AND(firstKeyData == 'AirQualityIndex', secondKeyData == 'AirQualitySeverity')))
         
-        def green_light(self):
+        def Context(self):
         
            print("Second Contract Passed")
         
-engine = RobotCrossStreet()
+engine = Execute()
 
-engine.reset()
+
+# Contract-2
+
+import json
+
+
+with open("inputJSON.txt", "r") as json_file:
+
+data = json.load(json_file)
+
+totalNumberOfKeysFetched = len(data.keys())
+
+print(totalNumberOfKeysFetched)
+engine.declare(Light(numberOfKeysExpected=str(totalNumberOfKeysFetched)))
+        
+engine.run()
 
 engine.declare(Light(firstKeyData=str(firstKeyDataInput), secondKeyData=str(secondKeyDataInput)))
         
 engine.run()
+
+
+
+# Contract-3
+
+
+import json
+
+
+with open("inputJSON.txt", "r") as json_file:
+
+data = json.load(json_file)
+
+totalNumberOfKeysFetched = len(data.keys())
+
+print(totalNumberOfKeysFetched)
+
+engine.declare(Light(numberOfKeysExpected=str(totalNumberOfKeysFetched)))
