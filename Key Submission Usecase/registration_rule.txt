@@ -1,0 +1,8 @@
+ {
+        "SDNController": "4b3f3be75c6f95244604638f7d6918df",
+	"AirQualitySeverity": "Low",
+	"address" : "1W6PKULPuyjx7h4wxDgi9JpVyrcs5RS116qDWY",
+        "pubkey" : "02ac829057fe50a82f5c808741fa05d99955f9e9f9b5fd1cd73237cacfb33def47",
+        "privkey" : "VAw2reY6zufd44womdFcv2ZV5vMU9BwvDqXwsCh5rVbpENUBwJQSFLNc"
+	
+ }
